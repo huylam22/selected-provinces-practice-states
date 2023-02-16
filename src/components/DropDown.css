@@ -1,0 +1,39 @@
+.state-dropdown {
+  border: none;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+}
+
+.state-dropdown button {
+  width: 300px;
+  height: 30px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.state-dropdown button svg {
+  width: 15px;
+}
+
+.panel {
+  /* position: absolute; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 10px;
+  overflow-y: auto;
+  height: 400px;
+}
+
+.panel fieldset {
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.panel fieldset.selected {
+  background: #e5f4fa;
+}
