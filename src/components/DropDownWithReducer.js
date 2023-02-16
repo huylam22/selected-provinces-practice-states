@@ -47,6 +47,7 @@ const dropdownReducer = (state, action) => {
   // return state;
 };
 
+// Test
 // const numberOfProvinceSelected =
 //   Object.values(selectedProvince).filter(Boolean).length;
 // console.log(numberOfProvinceSelected);
