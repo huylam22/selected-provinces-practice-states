@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <DropDown></DropDown>
-      <DropDownWithReducer></DropDownWithReducer>
+      {/* <DropDownWithReducer></DropDownWithReducer> */}
     </div>
   );
 }
